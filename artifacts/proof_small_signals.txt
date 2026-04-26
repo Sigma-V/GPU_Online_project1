@@ -1,0 +1,26 @@
+PyTorch Signal Processing Run Summary
+===================================
+Timestamp: 2026-04-26 12:06:28
+Device: cuda
+GPU: Tesla T4
+Input directory: data/small_signals
+Output directory: output/small
+Input files processed: 240
+Min length: 4096
+Max length: 4096
+Total samples: 983040
+Window radius: 4
+
+Timing (ms):
+  H2D copy: 20.872
+  Normalize stage: 94.317
+  Smooth stage: 426.676
+  Gradient stage: 92.496
+  D2H copy: 6.705
+  Total: 682.526
+Throughput (million samples/second): 1.440
+
+Generated files:
+  - Per-input *_smooth.csv
+  - Per-input *_gradient.csv
+  - signal_metrics.csv
